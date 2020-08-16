@@ -49,8 +49,8 @@
             ],
             "portMappings": [
                 {
-                    "containerPort": 8088,
-                    "hostPort": 80
+                    "containerPort": 8888,
+                    "hostPort": 8080
                 }
             ],
             "links": [

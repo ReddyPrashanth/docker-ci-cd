@@ -25,6 +25,6 @@ services:
             - ./src:/usr/loginapp/src
             - ./views:/usr/loginapp/views
         ports:
-            - "8888:8888"
+            - "8080:8888"
         depends_on: 
             - mysql-server
